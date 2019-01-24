@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1548185682 source:e:\m2lab1_hewin\main.cpp
+	<iostream>
+
+1548358142 source:f:\m2lab1_hewin\main.cpp
+	<iostream>
+	<string>
+
