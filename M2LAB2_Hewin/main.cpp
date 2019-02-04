@@ -2,7 +2,7 @@
 // James Austin Hewin
 // CSC-134
 // M2LAB2_Hewin
-// 01/27/2019
+// 02/03/2019
 /*****************************************************************************/
 #include <iostream>
 
@@ -13,12 +13,9 @@ int main()
     float numericalGrade = 0.0f;         // Initial numerical grade (0.0)
     char letterGrade = 'F';              // Initial letter grade ('F')
 /*****************************************************************************/
-    do{
     cout << "Type in the student's numerical grade: ";    // Prompt user for input
     cin >> numericalGrade;                                // Store numerical grade
 /*****************************************************************************/
-    } while (numericalGrade < 0.0 || numericalGrade > 100.0);
-
     if(numericalGrade < 60.0) {       // below 60.0 => 'F'
         letterGrade = 'F';
     }
