@@ -1,22 +1,54 @@
 // James Austin Hewin
 // M3T2_Hewin
-// 02/05/2019
+// 02/07/2019
 /*****************************************************************************/
 #include <iostream>
 
+/* minimum work hours */
 #define MIN_WORK_HOURS 30
+/* maximum work hours */
 #define MAX_WORK_HOURS 40
 
 using namespace std;
-
+/*****************************************************************************/
+/*
+ * validateInput() function
+ * validates that hourly pay rate > $0.00 per hour
+ * @param payPerHour       hourly pay rate
+ * @return                 true - rate > 0.00; false - rate <= 0.0
+ */
 bool validateInput(float payPerHour);
+/*****************************************************************************/
+/*
+ * CalcGrossPayForLoop() function
+ * calculates gross pay for work between 30 hours and 40 hours (for loop)
+ */
+void CalcGrossPayForLoop(void);
+/*****************************************************************************/
+/*
+ * CalcGrossPayWhileLoop() function
+ * calculates gross pay for work between 30 hours and 40 hours (while loop)
+ */
+void CalcGrossPayWhileLoop(void);
 /*****************************************************************************/
 int main()
 {
-    float payPerHour = 0.00;        /* amount of pay per hour */
+    CalcGrossPayForLoop();
+    cout << endl << endl;
+    CalcGrossPayWhileLoop();
 
-    int i = 0;                      /* counter for loops */
+    return 0;
+}
 /*****************************************************************************/
+bool validateInput(float payPerHour)
+{
+    return (payPerHour > 0.00);
+}
+/*****************************************************************************/
+void CalcGrossPayForLoop()
+{
+    int i = MIN_WORK_HOURS;
+    float payPerHour = 0.0f;
 
     cout << "********************FOR LOOP VERSION********************" << endl;
     do {
@@ -28,9 +60,13 @@ int main()
     for(i = MIN_WORK_HOURS; i <= MAX_WORK_HOURS; i++) {
         cout << i << "\t\t" << i * payPerHour << endl;
     }
+}
 /*****************************************************************************/
+void CalcGrossPayWhileLoop()
+{
+    int i = MIN_WORK_HOURS;
+    float payPerHour = 0.0f;
 
-    i = MIN_WORK_HOURS;
     cout << "********************WHILE LOOP VERSION********************" << endl;
     do {
         cout << "Enter the hourly pay rate: ";
@@ -43,10 +79,5 @@ int main()
         cout << i << "\t\t" << i * payPerHour << endl;
         i++;
     }
+}
 /*****************************************************************************/
-    return 0;
-}
-bool validateInput(float payPerHour)
-{
-    return (payPerHour > 0.00);
-}
