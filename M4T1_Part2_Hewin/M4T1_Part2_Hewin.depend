@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1550606222 source:e:\csc134\module_4\m4t1_part2_hewin\main.cpp
+	<iostream>
+	"safestuff.h"
+
+1550606396 e:\csc134\module_4\m4t1_part2_hewin\safestuff.h
+
+1550606558 source:e:\csc134\module_4\m4t1_part2_hewin\safestuff.cpp
+	<iostream>
+	"safestuff.h"
+
