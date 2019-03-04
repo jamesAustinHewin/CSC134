@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int add(int operandA, int operandB)
 {
     return operandA + operandB;
@@ -24,7 +23,6 @@ int remainder(int operandA, int operandB)
 {
     return operandA % operandB;
 }
-
 void arithUI(void)
 {
     cout << "--------------------Arithmetic Sub-Menu--------------------" << endl;

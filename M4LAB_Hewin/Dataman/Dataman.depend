@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1551216134 source:e:\csc134\module_4\m4lab_hewin\dataman\arithmetic.cpp
+1551669280 source:e:\csc134\module_4\m4lab_hewin\dataman\arithmetic.cpp
 	<iostream>
 	"arithmetic.h"
 
-1551215726 e:\csc134\module_4\m4lab_hewin\dataman\arithmetic.h
+1551669672 e:\csc134\module_4\m4lab_hewin\dataman\arithmetic.h
 
-1551666124 source:e:\csc134\module_4\m4lab_hewin\dataman\temperature.cpp
+1551670728 source:e:\csc134\module_4\m4lab_hewin\dataman\temperature.cpp
 	<iostream>
 	"temperature.h"
 
-1551665952 source:e:\csc134\module_4\m4lab_hewin\dataman\main.cpp
+1551670634 source:e:\csc134\module_4\m4lab_hewin\dataman\main.cpp
 	<iostream>
 	"arithmetic.h"
 	"temperature.h"
@@ -31,5 +31,5 @@
 
 1551218358 f:\csc134\module_4\m4lab_hewin\dataman\temperature.h
 
-1551666124 e:\csc134\module_4\m4lab_hewin\dataman\temperature.h
+1551669098 e:\csc134\module_4\m4lab_hewin\dataman\temperature.h
 

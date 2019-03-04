@@ -2,40 +2,42 @@
  * Name:         James Austin Hewin
  * Class:        CSC-134-0001
  * Project:      Dataman
- * Date:         February 26, 2019
- * Description:
+ * Date:         March 3, 2019
+ * Description:  This program performs different functions:
+ *               1.  Arithmetic conversions
+ *               2.  Temperature conversions
  *****************************************************************************/
 #include <iostream>
 #include "arithmetic.h"
 #include "temperature.h"
 
 using namespace std;
-
+/*****************************************************************************/
 int main()
 {
-    int option = 0;;                       // user chooses MENU option
-    int operandA, operandB;
-    char arithFunc;
-    int result;
-    float temperatureK;
-    float temperatureC;
-    int option_temperature;
-
+    int option = 0;;                 // user chooses DATAMAN MAIN MENU option
+    int operandA, operandB;          // operands for arithmetic conversions
+    char arithFunc;                  // operator for arithmetic conversions
+    int result;                      // result of arithmetic conversions
+    double temperatureK;             // Kelvin temperature
+    double temperatureC;             // Celsius temperature
+    int option_temperature;          // user chooses Temperature SUB-MENU option
+/*****************************************************************************/
     do {
         cout << "********************DATAMAN MAIN MENU********************" << endl;
         cout << "1.  Arithmetic" << endl;
         cout << "2.  Temperature Conversion" << endl;
         cout << "0.  Exit";
-        cout << endl << endl;
+        cout << endl;
 
         cin >> option;
 
         switch(option) {
-
+/*****************************************************************************/
             case 0:
                 cout << "Goodbye!!!!" << endl << endl;
                 break;
-
+/*****************************************************************************/
             case 1:
                 arithUI();
                 cin >> operandA >> arithFunc >> operandB;
@@ -57,10 +59,12 @@ int main()
                         result = remainder(operandA, operandB);
                         break;
                     default:
-                        result = 2147483647;
+                        result = 2147483647;   // MAX INTEGER
+                        break;
                 }
                 cout << "The answer is: " << result << endl << endl;
                 break;
+/*****************************************************************************/
             case 2:
                 tempUI();
                 cin >> option_temperature;
@@ -81,17 +85,17 @@ int main()
                         temperatureC = temperatureK = -1000000;
                         break;
                 }
-                cout << "Celsius Temperature\t\tKelvin Temperature" << endl;
-                cout << temperatureC << "\t\t\t" << temperatureK << endl << endl;
-            default:
+                cout << "Celsius Temperature\n" << temperatureC << endl << endl;
+                cout << "Kelvin Temperature\n" << temperatureK << endl << endl;
                 break;
-
-
-
+/*****************************************************************************/
+            default:
+                cout << "Invalid option!!!" << endl << endl;
+                break;
         }
 
     } while (option != 0);
-
+/*****************************************************************************/
 
     return 0;
 }
