@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1551814008 source:f:\csc134\module_5\m5t1_hewin\main.cpp
+	<iostream>
+	"pen.h"
+
+1551813098 f:\csc134\module_5\m5t1_hewin\pen.h
+
