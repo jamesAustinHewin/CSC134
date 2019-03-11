@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1551986670 source:e:\csc134\module_4\m4lab_hewin\dataman\arithmetic.cpp
+	<iostream>
+	"arithmetic.h"
+
+1551669672 e:\csc134\module_4\m4lab_hewin\dataman\arithmetic.h
+
+1551986324 source:e:\csc134\module_4\m4lab_hewin\dataman\temperature.cpp
+	<iostream>
+	"temperature.h"
+
+1551815170 source:e:\csc134\module_4\m4lab_hewin\dataman\main.cpp
+	<iostream>
+	"arithmetic.h"
+	"temperature.h"
+
+1551218358 source:f:\csc134\module_4\m4lab_hewin\dataman\temperature.cpp
+	<iostream>
+	"temperature.h"
+
+1551217840 source:f:\csc134\module_4\m4lab_hewin\dataman\main.cpp
+	<iostream>
+	"arithmetic.h"
+	"temperature.h"
+
+1551215726 f:\csc134\module_4\m4lab_hewin\dataman\arithmetic.h
+
+1551216134 source:f:\csc134\module_4\m4lab_hewin\dataman\arithmetic.cpp
+	<iostream>
+	"arithmetic.h"
+
+1551218358 f:\csc134\module_4\m4lab_hewin\dataman\temperature.h
+
+1551669098 e:\csc134\module_4\m4lab_hewin\dataman\temperature.h
+
+1552269026 source:e:\csc134\module_5\m5hw1_hewin\dataman\arithmetic.cpp
+	<iostream>
+	"arithmetic.h"
+	"menu.h"
+
+1551669672 e:\csc134\module_5\m5hw1_hewin\dataman\arithmetic.h
+
+1552268962 source:e:\csc134\module_5\m5hw1_hewin\dataman\main.cpp
+	<iostream>
+	"arithmetic.h"
+	"temperature.h"
+	"menu.h"
+
+1551987068 e:\csc134\module_5\m5hw1_hewin\dataman\temperature.h
+
+1552268942 source:e:\csc134\module_5\m5hw1_hewin\dataman\menu.cpp
+	<iostream>
+	"menu.h"
+
+1552269212 e:\csc134\module_5\m5hw1_hewin\dataman\menu.h
+
+1552269026 source:e:\csc134\module_5\m5hw1_hewin\dataman\temperature.cpp
+	<iostream>
+	"temperature.h"
+	"menu.h"
+
