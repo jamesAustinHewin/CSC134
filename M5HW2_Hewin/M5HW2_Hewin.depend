@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1553478052 source:e:\csc134\module_5\m5hw2_hewin\main.cpp
+	<iostream>
+	"atm.h"
+
+1553478938 e:\csc134\module_5\m5hw2_hewin\atm.h
+
+1553478716 source:e:\csc134\module_5\m5hw2_hewin\atm.cpp
+	<iostream>
+	"atm.h"
+
+1554322720 source:f:\csc134\module_5\m5hw2_hewin\atm.cpp
+	"atm.h"
+
+1554322376 f:\csc134\module_5\m5hw2_hewin\atm.h
+
+1554324242 source:f:\csc134\module_5\m5hw2_hewin\main.cpp
+	<iostream>
+	"atm.h"
+
