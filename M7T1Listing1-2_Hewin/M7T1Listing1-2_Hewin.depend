@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1556822208 source:e:\csc134\module_7\m7t1listing1-2_hewin\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
