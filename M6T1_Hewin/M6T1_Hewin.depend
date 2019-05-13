@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1556654160 source:e:\csc134\module_6\m6t1_hewin\main.cpp
+	<iostream>
+	"observer.h"
+
+1556652152 e:\csc134\module_6\m6t1_hewin\observer.h
+	<string>
+
+1556653900 source:e:\csc134\module_6\m6t1_hewin\observer.cpp
+	"observer.h"
+	<iostream>
+
