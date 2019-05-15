@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1557892142 source:e:\csc134\module_7\m7hw_hewin\room.cpp
+	"room.h"
+	<iostream>
+
+1557844866 e:\csc134\module_7\m7hw_hewin\room.h
+	<string>
+
+1557891598 source:e:\csc134\module_7\m7hw_hewin\main.cpp
+	<iostream>
+	"game.h"
+
+1557889484 source:e:\csc134\module_7\m7hw_hewin\game.cpp
+	"game.h"
+
+1557717684 source:e:\csc134\module_7\m7hw_hewin\item.cpp
+	"item.h"
+	<iostream>
+
+1557717618 source:e:\csc134\module_7\m7hw_hewin\player.cpp
+	"player.h"
+
+1557717618 e:\csc134\module_7\m7hw_hewin\player.h
+	<string>
+	"room.h"
+
+1557717662 e:\csc134\module_7\m7hw_hewin\item.h
+	<string>
+	<vector>
+
+1557889512 e:\csc134\module_7\m7hw_hewin\game.h
+	<iostream>
+	<vector>
+	<string>
+	"constants.h"
+	"room.h"
+	"player.h"
+	"item.h"
+
+1557518032 e:\csc134\module_7\m7hw_hewin\constants.h
+
