@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1557515676 source:e:\csc134\module_6\m6t2_hewin\room.cpp
+	"room.h"
+
+1557515620 e:\csc134\module_6\m6t2_hewin\room.h
+	<string>
+
+1557515736 source:e:\csc134\module_6\m6t2_hewin\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"room.h"
+
